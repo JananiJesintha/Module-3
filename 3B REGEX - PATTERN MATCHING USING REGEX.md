@@ -21,9 +21,22 @@ To write a Python program that matches a string containing an `'a'` followed by 
 ---
 
 ### PROGRAM
-
 ```
+s=input()
+state=True
+for word in s[1:]:
+    if word!='b':
+        state=False
+        break
+if s[0]=='a' and (state==True or s[1]=='\0'):
+    print("Found a match!")
+else:
+    print("Not matched!")
 ```
 ### OUTPUT
 
+<img width="830" height="372" alt="image" src="https://github.com/user-attachments/assets/022e919c-8bb7-4169-afab-e307f324eba9" />
+
 ### RESULT
+
+Thus, the python code is written and executed successfully.
