@@ -4,7 +4,7 @@
 ---
 
 ### AIM  
-To write a Python function that accepts a number **N** and creates a list containing all even numbers up to **N**.
+To write a Python function that accepts a number **N** and creates a list containing all even numbers from 12 to **N**.
 
 ---
 
@@ -22,10 +22,20 @@ To write a Python function that accepts a number **N** and creates a list contai
 ---
 
 ### PROGRAM
-
 ```
+def createlist(n):
+    l=[]
+    for i in range(12,n):
+        if i%2==0:
+            l.append(i)
+    print("List =",l)
+    print("Sum of the list",sum(l))
 ```
 
 ### OUTPUT
 
+<img width="827" height="260" alt="image" src="https://github.com/user-attachments/assets/ef68732e-cc64-4fb9-acbb-c793552001ae" />
+
 ### RESULT
+
+Thus, the python code is written and executed successfully.
