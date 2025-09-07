@@ -23,8 +23,16 @@ To write a Python function that accepts a string and forms a new string by rever
 ### PROGRAM
 
 ```
+def slice(string):
+    res=string.split()
+    out=string[2:10:2]
+    print(f"The sliced string is '{out}'")
 ```
 
 ### OUTPUT
 
+<img width="726" height="252" alt="image" src="https://github.com/user-attachments/assets/7a562f00-8937-40d3-ab8a-39177d759d4e" />
+
 ### RESULT
+
+Thus, the python code is written and executed successfully.
